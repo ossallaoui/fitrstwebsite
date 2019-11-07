@@ -1,19 +1,25 @@
 body
 {
     background-color: blue;
+    background-image: url('../images/kosmoo.jpg');
+
     width: 100%;
     height: 100%;
     opacity: 0.8;
 }
-.nav-css{
-    margin-left: 396px;
-    font-size: 30px;
-}
+
+.nav-css {
+    font-size: 26px;
+    margin-left: 400px;
 .box
 {
     width: 100px;
     height: 100px;
+
+    background-image: url('reeastrono.jpg');
+
     background-image: url('./images/freeastrono.jpg');
+
     border: aqua solid 1px;
     border-radius: 50%;
 }
@@ -32,6 +38,10 @@ body
     
     
 }
+.text-slid-box
+{
+    text-align: center;
+}
 .left-box ul li
 {
     background-color: azure;
@@ -40,6 +50,12 @@ body
     color: beige;
     
 }
+
+h1{
+    color: aqua;
+    text-align: center;
+}
+
 .contact {background-color: #252F31;overflow: hidden;margin-top: 50px;}
 
 .contact .info{ width: 50%; margin-right: 5%;}
