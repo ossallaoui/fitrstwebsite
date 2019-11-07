@@ -1,6 +1,6 @@
 body
 {
-    background-image: url('astoronocolor.jpg');
+    background-image: url('../images/astoronocolor.jpg');
     width: 100%;
     height: 100%;
     opacity: 0.8;
@@ -9,7 +9,7 @@ body
 {
     width: 100px;
     height: 100px;
-    background-image: url('freeastrono.jpg');
+    background-image: url('./images/freeastrono.jpg');
     border: aqua solid 1px;
     border-radius: 50%;
 }
