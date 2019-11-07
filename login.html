@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>website</title>
+        <link rel="stylesheet" href="css/stylecosmo.css">
         <style>
             .login{
             background-color:aliceblue;
@@ -12,21 +13,35 @@
                 padding: 30px;
                 font-size: 20px;
                 opacity: 0.8;
+                position: relative;
             }
             button{
                 width: 200px;
                 height: 40px;
                 font-size: 20px;
+                border :0px;
+                background-color:cornsilk;
             }
             .user{
-                height: 30px;
+                height: 35px;
+                margin: 10px;
                 
+            }
+            img{
+                
+                margin-left: 50%;
+                margin-bottom:110px;
+                margin-top: -50px;
+                position: absolute;
+               
             }
         </style>
     </head>
     <body>
+                    <img src="images/icons8-bouclier-de-l'utilisateur-64.png">
         <div class="login">
         <form name="form1">
+
             <table>
                 <tr><td>user</td><td><input type="text" name="user" class="user"></td></tr>
                 <tr><td>password</td><td><input type="password" name="pass" class="user"></td></tr>
