@@ -1,0 +1,38 @@
+body
+{
+    background-image: url('astoronocolor.jpg');
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+}
+.box
+{
+    width: 100px;
+    height: 100px;
+    background-image: url('freeastrono.jpg');
+    border: aqua solid 1px;
+    border-radius: 50%;
+}
+.left-box
+{
+    width: 100%;
+    height: 8%;
+    
+    background-color: aliceblue;
+    position: relative;
+    
+    text-decoration: none;
+   
+    border: azure solid 0.5px;
+    border-radius: 10px 10px 10px 10px;
+    
+    
+}
+.left-box ul li
+{
+    background-color: azure;
+    position: relative;
+    float: right;
+    color: beige;
+    
+}
