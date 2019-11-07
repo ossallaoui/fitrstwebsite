@@ -2,27 +2,45 @@
 <html lang="en">
 <head>
      <meta charset="utf-8">
-    <link rel="stylesheet" href="stylecosmo.css"/>
+    <link rel="stylesheet" href="css/stylecosmo.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 <body>
     
-    <div class="main">
-        
-					<div class="box">
-                        <strong>Kosmos</strong>
-                    </div>
-                    <div class="right-box">
-                        <p>The Space is The Future</p>
-                    </div>
-                    <div class="left-box">
-                        <ul>
-                            <li><a href="#"> Log In</a></li>
-                            <li><a href="#"> Registre</a></li>
-                            <li><a href="#"> About Us</a></li>
-                        </ul>
-                    </div>
-                </div>
-                   <div class="text-slid-box">
+
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#"><img src="images/unknown.png"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="nav-css">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="principal.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="register.html">Register</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="">About Us</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="contact">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        </nav>
+    
+                   <div class="text-slid-box" >
                         <div id="offer-box" class="carouselTicker">
                             <ul class="offer-box">
                                 <li>
@@ -52,7 +70,38 @@
                             </ul>
                         </div>
                     </div>
-         
-                
-                
+
+            <div class="contact">
+                    <div class="container">
+                        <div class="info fl-left">
+                            
+                            <h2>Contact Me</h2>
+                            <p>pplication web qui permet la création, la modification et l'illustration collaboratives de pages à l'intérieur d'un site web. Il utilise un langage deUn wiki est une application web qui permet</p>
+                            
+                            <p>123 Street california <br>
+                            chicago<br>
+                            United State
+                            </p>
+                            <p>
+                                <strong>Email:</strong> MiSelfn@gmail.com<br>
+                                <strong>Phone: </strong> +21265462182
+                            </p>
+                        </div>
+                            <div class="form fl-left">
+                                
+                                    <label>Name :</label>
+                                    <input type="text" name="">
+                                    <label>Email Adresse :</label>
+                                    <input type="text" name="">
+                                    <label>Phone :</label>
+                                    <input type="text" name="">
+                                    <label>Message</label>
+                                    <textarea></textarea>
+                                    <input type="submit" value="Contact Me">
+                                
+                            </div>
+                        </div>
+                    </div>
+
 </body>
+</html>
