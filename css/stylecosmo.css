@@ -36,3 +36,59 @@ body
     color: beige;
     
 }
+#container
+{
+    float: left;
+}
+.art1
+{
+    background-image: url('../images/kosmoo.jpg');
+    border-radius: 60%;
+    width: 25%;
+    height: 200px;
+    margin-top: 30%;
+    margin-left: 10%;
+}
+.art2
+{
+    background-image: url('../images/nasaimg.jpg');
+    border-radius: 60%;
+    width: 25%;
+    height: 200px;
+    margin-top: 60%;
+    margin-left: 10%;
+}
+.art3
+{
+    background-image: url('../images/maxresdefault.jpg');
+    border-radius: 60%;
+    width: 25%;
+    height: 200px;
+    margin-top: 30%;
+    margin-left: 30%;
+}
+.art4
+{
+    background-image: url('../images/planet.jpeg');
+    border-radius: 60%;
+    width: 25%;
+    height: 200px;
+    margin-top: 30%;
+    margin-left: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
