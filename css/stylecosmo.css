@@ -9,6 +9,7 @@ body
 .nav-css {
     font-size: 26px;
     margin-left: 400px;
+}
 .box
 {
     width: 100px;
@@ -48,12 +49,10 @@ body
     color: beige;
     
 }
-<<<<<<< HEAD
 h1{
     color: aqua;
     text-align: center;
 }
-=======
 
 
 .contact {background-color: #252F31;overflow: hidden;margin-top: 50px;}
@@ -92,4 +91,3 @@ h1{
     margin-top: 10px;
     margin-bottom: 20px
     }
->>>>>>> 7a7033b40b6e2dc7393e98f7ce3027f55fdcfbe1
